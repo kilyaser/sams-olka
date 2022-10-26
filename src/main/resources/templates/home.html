@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>Sams-Olka</title>
+  <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+
+<body>
+  <div class="top">
+    <header class="menu_nav">
+      <div class="menu_logo">
+        <a th:href="@{#}"> <img th:src="@{/images/menu_logo.png}" alt="logo"></a>
+
+      </div>
+      <div class="menu_items">
+        <div class="menu_home"><a th:href="@{#}">Home</a></div>
+        <div class="menu_store"><a th:href="@{#}">Store</a>
+          <div class="store_bl store_block_1"><a th:href="@{#}">Books</a></div>
+          <div class="store_bl store_block_2"><a th:href="@{#}">Original Arts</a></div>
+          <div class="store_bl store_block_3"><a th:href="@{#}">Prints</a></div>
+        </div>
+        <div class="diamond"></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div></div>
+    </header>
+    <div class="fon_page_1">
+      <img th:src="@{/images/fon_1.png}"/>
+    </div>
+    <!--    <h1>Welcome to...</h1>-->
+
+  </div>
+</body>
+
+</html>
