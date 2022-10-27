@@ -9,25 +9,33 @@
 <body>
   <div class="top">
     <header class="menu_nav">
-      <div class="menu_logo">
-        <a th:href="@{#}"> <img th:src="@{/images/menu_logo.png}" alt="logo"></a>
 
-      </div>
       <div class="menu_items">
+        <div class="menu_logo">
+          <a th:href="@{#}"> <img th:src="@{/images/menu_logo.png}" alt="logo"></a>
+
+        </div>
         <div class="menu_home"><a th:href="@{#}">Home</a></div>
         <div class="menu_store"><a th:href="@{#}">Store</a>
-          <div class="store_bl store_block_1"><a th:href="@{#}">Books</a></div>
-          <div class="store_bl store_block_2"><a th:href="@{#}">Original Arts</a></div>
-          <div class="store_bl store_block_3"><a th:href="@{#}">Prints</a></div>
+          <div class="menu_hover">
+            <div class="store_bl store_block_1"><a th:href="@{#}">Books</a></div>
+            <div class="store_bl store_block_2"><a th:href="@{#}">Original Arts</a></div>
+            <div class="store_bl store_block_3"><a th:href="@{#}">Prints</a></div>
+          </div>
+
         </div>
         <div class="diamond"></div>
-        <div></div>
-        <div></div>
+        <div class="menu_about"><a th:href="@{#}">About</a></div>
+        <div class="menu_contact"><a th:href="@{#}">Contact</a></div>
       </div>
-      <div></div>
+      <div class="menu_right">
+        <div class="menu_item_search"><a th:href="@{#}"><img th:src="@{/images/search.svg}" alt="logo search"></a></div>
+        <div class="menu_item_cart"><a th:href="@{#}"><img th:src="@{/images/bag.svg}" alt="bag"></a></div>
+        <a class="menu_item_instagram" th:href="@{#}">Instagram</a>
+      </div>
     </header>
     <div class="fon_page_1">
-      <img th:src="@{/images/fon_1.png}"/>
+      <img th:src="@{/images/fon_1.png}" alt="picter"/>
     </div>
     <!--    <h1>Welcome to...</h1>-->
 
