@@ -114,34 +114,36 @@ a {
     height: 91vh;
 }
 .left_side_main_fon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
 }
 .left_side_description_box {
     display: flex;
     flex-direction: column;
-    width: content-box;
-    margin-left: 450px;
+    box-sizing: border-box;
+
 }
 .left_side_h1 {
-    padding-top: 200px;
-    font-size: 60px;
+    font-size: 65px;
     font-family: arial, serif;
 }
 .left_side_description {
-    width: 300px;
-    margin-top: 20px;
-    font-size: 15px;
+    width: 400px;
+    margin-top: 30px;
+    font-size: 25px;
     font-family: arial, serif;
     word-spacing: 0.1em;
-    line-height: 20px;
+    line-height: 30px;
 }
 .left_side_pick {
-    margin-top: 25px;
+    margin-top: 35px;
     padding: 15px 25px;
     border-radius: 30px;
     background: deepskyblue;
     width: fit-content;
-    font-size: 15px;
+    font-size: 25px;
     font-family: arial, serif;
     letter-spacing: 0.1em;
 }
@@ -155,11 +157,28 @@ a {
 }
 .second_section_block {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+
     height: 300px;
     list-style-type: none;
     color: deepskyblue;
     font-weight: bold;
 
+}
+.li_position {
+    align-self: center;
+    transition: 0.2s;
+}
+.section_block_text {
+    color: deepskyblue;
+    font-size: 50px;
+
+}
+.text_block_2 {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.li_position_block_1:hover, .li_position_block_2:hover, .li_position_block_3:hover {
+    padding-bottom: 20px;
+    transition: 0.2s;
 }
