@@ -31,11 +31,27 @@
       <div class="menu_right">
         <div class="menu_item_search"><a th:href="@{#}"><img th:src="@{/images/search.svg}" alt="logo search"></a></div>
         <div class="menu_item_cart"><a th:href="@{#}"><img th:src="@{/images/bag.svg}" alt="bag"></a></div>
-        <a class="menu_item_instagram" th:href="@{#}">Instagram</a>
+        <a class="store_bl menu_item_instagram" th:href="@{#}">Instagram</a>
       </div>
     </header>
-    <div class="fon_page_1">
-      <img th:src="@{/images/fon_1.png}" alt="picter"/>
+    <div class="main_fon">
+      <div class="left_side_main_fon">
+        <div class="left_side_description_box">
+          <h1 class="left_side_h1">Sams-Olka</h1>
+          <div class="left_side_description">Welcome to the store of original art by Olga Samsonova</div>
+          <a class="left_side_pick" th:href="@{#}">Pick a Friend</a>
+        </div>
+      </div>
+      <div class="fon_page_1">
+        <img class="fon_page_1_img" th:src="@{/images/fon_1.png}" alt="picture"/>
+      </div>
+    </div>
+    <div class="menu_second_section">
+      <ul class="second_section_block">
+        <li><a th:href="@{#}">Book</a></li>
+        <li><a th:href="@{#}">Original</a></li>
+        <li><a th:href="@{#}">Prints</a></li>
+      </ul>
     </div>
     <!--    <h1>Welcome to...</h1>-->
 
