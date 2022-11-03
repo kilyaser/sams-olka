@@ -249,5 +249,53 @@ a {
 .image_icon:hover {
     transform: scale(1.2);
     transition: 0.2s;
+}
+.hello_container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    background: #f6f2ee;
+}
 
+.hello_block {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    width: 1300px;
+    background: #f6f2ee;
+
+}
+
+.hello_picture {
+    height: 570px;
+}
+.hello_text {
+    margin-left: 150px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+.painter_container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    background: #eef6f6;
+    height: 670px;
+}
+.photo_block {
+    display: flex;
+    width: 1300px;
+    background: #eef6f6;
+}
+
+.representative_text {
+    margin-right: 130px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    width: 40%;
+}
+.olga_text {
+    font-size: 50px;
+}
+.painter_picture {
+    height: 670px;
 }
