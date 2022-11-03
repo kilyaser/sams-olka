@@ -7,6 +7,10 @@
 a {
     text-decoration: none;
 }
+.text {
+    font-family: arial, serif;
+}
+
 .menu_nav {
     display: flex;
     align-items: center;
@@ -139,13 +143,13 @@ a {
 }
 .left_side_pick {
     margin-top: 35px;
-    padding: 15px 25px;
-    border-radius: 30px;
+    padding: 20px 25px;
+    border-radius: 35px;
     background: deepskyblue;
     width: fit-content;
     font-size: 25px;
     font-family: arial, serif;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
 }
 .fon_page_1 {
     width: 50%;
@@ -154,6 +158,9 @@ a {
 .fon_page_1_img {
     float: right;
     height: 91vh;
+}
+.menu_second_section {
+    background: #f6f2ee;
 }
 .second_section_block {
     display: flex;
@@ -181,4 +188,66 @@ a {
 .li_position_block_1:hover, .li_position_block_2:hover, .li_position_block_3:hover {
     padding-bottom: 20px;
     transition: 0.2s;
+}
+
+
+.menu_cart_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background: #ede5dd;
+}
+.title_cart_container {
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    align-self: center
+}
+
+.cart_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    background: #ede5dd;
+    width: 1300px;
+
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 384px;
+    height: 483px;
+    margin: 20px 20px;
+
+
+}
+.cart_border {
+    height: 384px;
+    overflow: hidden;
+}
+
+.cart_text {
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.cart_text_href {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.image_icon {
+    overflow: hidden;
+    transition: 0.2s;
+    width: 384px;
+    height: 384px;
+}
+
+.image_icon:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+
 }
