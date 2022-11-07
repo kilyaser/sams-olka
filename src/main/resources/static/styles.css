@@ -252,6 +252,7 @@ a {
 }
 .hello_container {
     padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
     background: #f6f2ee;
@@ -276,6 +277,7 @@ a {
 }
 .painter_container{
     padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
     background: #eef6f6;
@@ -299,3 +301,88 @@ a {
 .painter_picture {
     height: 670px;
 }
+
+.review_container {
+    display: flex;
+    justify-content: center;
+    background: #f6f2ee;
+}
+
+.review_text {
+    background: #f6f2ee;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    width: 650px;
+}
+
+.delivery_packing_container {
+    display: flex;
+    justify-content: center;
+    background: #eeeef6;
+}
+
+.delivery_packing_text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    max-width: 1300px;
+    background: #eeeef6;
+}
+
+.title_text_packing {
+    font-size: 50px;
+}
+.del_tex {
+    font-size: 20px;
+}
+
+.delivery_description {
+    margin-left: 200px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    font-size: 20px;
+}
+.payments_container {
+    background: #f6f2ee;
+}
+.payments_packing_text {
+    background: #f6f2ee;
+}
+.footer_container {
+    display: flex;
+    justify-content: center;
+    background: #eeeef6;
+}
+.footer_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    background: #eeeef6;
+}
+.footer_support_title {
+    font-size: 50px;
+}
+.footer_question_text {
+    max-width: 600px;
+}
+
+.footer_mail_href {
+    display: flex;
+    justify-content: center;
+}
+svg:hover {
+    fill: url(#radial1);
+}
+
+
+
