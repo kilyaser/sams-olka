@@ -12,10 +12,10 @@
 
       <div class="menu_items">
         <div class="menu_logo">
-          <a th:href="@{#}"> <img th:src="@{/images/menu_logo.png}" alt="logo"></a>
+          <a href="/" target="_self"> <img th:src="@{/images/menu_logo.png}" alt="logo"></a>
 
         </div>
-        <div class="menu_home"><a th:href="@{#}">Home</a></div>
+        <div class="menu_home"><a href="/" target="_self">Home</a></div>
         <div class="menu_store"><a th:href="@{#}">Store</a>
           <div class="menu_hover">
             <div class="store_bl store_block_1"><a th:href="@{#}">Books</a></div>
@@ -25,13 +25,13 @@
 
         </div>
         <div class="diamond"></div>
-        <div class="menu_about"><a th:href="@{#}">About</a></div>
-        <div class="menu_contact"><a th:href="@{#}">Contact</a></div>
+        <div class="menu_about"><a href="#painter" target="_self">About</a></div>
+        <div class="menu_contact"><a href="#contact" target="_self">Contact</a></div>
       </div>
       <div class="menu_right">
         <div class="menu_item_search"><a th:href="@{#}"><img th:src="@{/images/search.svg}" alt="logo search"></a></div>
         <div class="menu_item_cart"><a th:href="@{#}"><img th:src="@{/images/bag.svg}" alt="bag"></a></div>
-        <div class="menu_instagram"><a class="menu_item_instagram" th:href="@{#}">Instagram</a></div>
+        <div class="menu_instagram"><a class="menu_item_instagram" th:href="@{https://www.instagram.com/sams_olka/}" th:target="_blank">Instagram</a></div>
       </div>
     </header>
     <div class="main_fon">
@@ -43,7 +43,7 @@
         </div>
       </div>
       <div class="fon_page_1">
-        <img class="fon_page_1_img" th:src="@{/images/fon_1.png}" alt="picture"/>
+        <img class="fon_page_1_img" th:src="@{/images/fon_2.png}" alt="picture"/>
       </div>
     </div>
     <div class="menu_second_section">
@@ -165,7 +165,7 @@
         </div>
       </div>
     </div>
-    <div class="painter_container">
+    <div class="painter_container" id="painter">
       <div class="photo_block">
         <div class="representative_text text">
           <h1 class="text olga_text">Ольга Самсонова</h1>
@@ -239,7 +239,7 @@
         </div>
       </div>
     </div>
-    <footer class="footer_container">
+    <footer class="footer_container" id="contact">
       <div class="footer_text">
         <h2 class="footer_support_title text">Contact & Support</h2>
         <br><br>
@@ -250,7 +250,7 @@
         <br>
         <p class="text">All images &copy; Olga Samsonova</p>
         <br>
-        <p class="text">email@sams-olka</p>
+        <a class="text mail_text" href="mailto:example@mail.com">email@sams-olka</a>
         <br>
         <a th:href="@{https://www.instagram.com/sams_olka/}" th:target="_blank">
           <div class="inst_logo">
@@ -278,8 +278,8 @@
         <br>
         <div class="footer_mail_href text">
           <a class="footer_mail_href text" th:href="@{#}">
-          <div>For foreign rights licensing please contact</div>
-          <div><img th:src="@{/images/array.svg}" alt="array "> </div>
+          <a class="contact_text" href="mailto:example@mail.com">For foreign rights licensing please contact&nbsp;</a>
+
         </a>
         </div>
 
