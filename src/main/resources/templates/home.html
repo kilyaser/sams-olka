@@ -29,9 +29,15 @@
         <div class="menu_contact"><a href="#contact" target="_self">Contact</a></div>
       </div>
       <div class="menu_right">
-        <div class="menu_item_search"><a th:href="@{#}"><img th:src="@{/images/search.svg}" alt="logo search"></a></div>
+        <div class="menu_item_search">
+          <a th:href="@{#}">
+
+            <img th:src="@{/images/search.svg}" alt="logo search">
+
+        </a>
+        </div>
         <div class="menu_item_cart"><a th:href="@{#}"><img th:src="@{/images/bag.svg}" alt="bag"></a></div>
-        <div class="menu_instagram"><a class="menu_item_instagram" th:href="@{https://www.instagram.com/sams_olka/}" th:target="_blank">Instagram</a></div>
+        <div class="menu_instagram"><a class="menu_item_instagram text" th:href="@{https://www.instagram.com/sams_olka/}" th:target="_blank">Instagram</a></div>
       </div>
     </header>
     <div class="main_fon">

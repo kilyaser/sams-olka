@@ -6,6 +6,7 @@
 }
 a {
     text-decoration: none;
+    color: black;
 }
 
 html {
@@ -39,10 +40,17 @@ html {
 .menu_home {
     width: 100px;
     margin-left: 50px;
+    color: black;
+}
 
+.menu_home:hover {
+    opacity: 0.7;
 }
 .menu_store {
     position: relative;
+}
+.menu_store:hover {
+    opacity: 0.7;
 }
 .diamond {
     width: 7px;
@@ -65,6 +73,7 @@ html {
 }
 .store_block_1 {
     top: 20px;
+
 }
 .store_block_2 {
     top: 70px;
@@ -75,8 +84,14 @@ html {
 .menu_about {
     margin-left: 50px;
 }
+.menu_about:hover {
+    opacity: 0.7;
+}
 .menu_contact {
     margin-left: 50px;
+}
+.menu_contact:hover {
+    opacity: 0.7;
 }
 
 .menu_store:hover
@@ -109,12 +124,22 @@ html {
     margin-right: 30px;
     align-self: center;
 }
+
+.menu_item_cart:hover {
+    opacity: 0.7;
+}
 .menu_item_instagram {
     border: 1px solid #000000;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 30px;
     margin-right: 50px;
+    font-size: 25px;
 }
+.menu_item_instagram:hover {
+    background: black;
+    color: snow;
+}
+
 
 .main_fon {
     display: flex;
@@ -150,11 +175,14 @@ html {
     margin-top: 35px;
     padding: 20px 25px;
     border-radius: 35px;
-    background: deepskyblue;
+    background: #00bfff;
     width: fit-content;
     font-size: 25px;
     font-family: arial, serif;
     letter-spacing: 0.05em;
+}
+.left_side_pick:hover {
+    background: #00ace6;
 }
 .fon_page_1 {
     width: 50%;
